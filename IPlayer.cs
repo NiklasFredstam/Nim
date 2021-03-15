@@ -2,7 +2,7 @@
 {
     public interface IPlayer
     {
-        //Allows us to create a list of IPlayers that can be either AI or Player
+        //AI or Player
         string name { get; }
 
         int wins { get; set; }
